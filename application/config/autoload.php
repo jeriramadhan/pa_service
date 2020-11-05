@@ -60,7 +60,7 @@ $autoload['packages'] = array();
 */
 // $autoload['libraries'] = array('database','exception','libs_bearer','libs');
 if(php_sapi_name()!='cli'){
-	$autoload['libraries'] = array('database','form_validation','session','libs','libs_bearer','exception');
+	$autoload['libraries'] = array('database','form_validation','session','libs_bearer','exception');
 }else{
 	$autoload['libraries'] = array('database','security');
 }
