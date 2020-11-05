@@ -1,5 +1,5 @@
 <?php
-class Libs_bearer {
+class libs_bearer {
 	var $CI;
 	
 	function __construct() {
