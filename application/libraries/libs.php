@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class libs {
+class Libs {
 
     var $CI;
 
